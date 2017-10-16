@@ -12,7 +12,7 @@
 ----
 * 命名空间aop(三条)<br>
 * 自动扫描<context:component-scan base-package="*"/><br>
-* AOP开启自动代理<aop:aspectj-autoproxy></aop:aspectj-autoproxy><br>
+* AOP开启自动代理\<aop:aspectj-autoproxy></aop:aspectj-autoproxy><br>
 * 相关Bean<br>
 
 替换注解
