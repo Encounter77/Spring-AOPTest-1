@@ -23,7 +23,7 @@
 
     <!--替换注解-->
     <aop:config>
-        <aop:aspect ref="EatingProcess">
+        <aop:aspect ref="eatingProcess">
             <aop:pointcut id="pointCut" expression="execution(* com.ex.Food.process(..))"></aop:pointcut>
             <aop:before method="takeBowls" pointcut-ref="pointCut"></aop:before>
             <aop:after-returning method="putChopsticks" pointcut-ref="pointCut"></aop:after-returning>
